@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App The cheat sunny button clicking the sunny button should set the Weather to sunny 1`] = `
+<img
+  alt="logo"
+  src="sun.svg"
+/>
+`;

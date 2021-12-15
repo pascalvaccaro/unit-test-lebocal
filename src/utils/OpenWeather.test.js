@@ -8,6 +8,12 @@ describe('openWeather', () => {
         expect(result).toEqual({});
     });
 
+    it('returns {} if there is no response', () => {
+      const fake = null;
+      const result = openWeather(fake);
+      expect(result).toEqual({});
+  });
+
     it('returns { raining: true } if description contains rain', () => {
         const fake = {daily: [{}, {
             weather: [

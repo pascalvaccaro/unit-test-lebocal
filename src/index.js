@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App lat={0} lon={40} />
   </React.StrictMode>,
   document.getElementById('root')
 );
